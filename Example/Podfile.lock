@@ -1,0 +1,16 @@
+PODS:
+  - lgscTestPod (0.1.0)
+
+DEPENDENCIES:
+  - lgscTestPod (from `../`)
+
+EXTERNAL SOURCES:
+  lgscTestPod:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  lgscTestPod: d9b4f3ea48e4d9526543eacf584bd5410df51426
+
+PODFILE CHECKSUM: 0b78bd235bdc92ff8a5ddf1fb9a908b7432ef837
+
+COCOAPODS: 1.11.3
