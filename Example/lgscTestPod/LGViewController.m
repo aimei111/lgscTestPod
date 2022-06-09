@@ -20,6 +20,12 @@
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
+- (void)testMyPod
+{
+    UIAlertView *aaa = [[UIAlertView alloc]initWithTitle:@"测试标题" message:@"测试内容" delegate:nil cancelButtonTitle:@"取消" otherButtonTitles:@"确认", nil];
+    [aaa show];
+}
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];

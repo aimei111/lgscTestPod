@@ -10,4 +10,6 @@
 
 @interface LGViewController : UIViewController
 
+- (void)testMyPod;
+
 @end
